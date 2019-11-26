@@ -1,0 +1,46 @@
+﻿<Window x:Name="MainWindow1" x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cm_Calculator"
+        mc:Ignorable="d"
+        Title="Cm Calculator" Height="470.307" Width="322.911" ScrollViewer.VerticalScrollBarVisibility="Disabled">
+    <Grid x:Name="InsideWindow" HorizontalAlignment="Left" Width="320" Margin="0,0,-5,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="61*"/>
+            <RowDefinition Height="150*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="320"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txt_input" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="120" Margin="6,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295" TextChanged="TextBox_TextChanged" FontSize="36" VerticalScrollBarVisibility="Disabled" MaxWidth="295" MaxHeight="120"/>
+        <Button x:Name="btn_backspace" Grid.ColumnSpan="2" Content="&lt;--" HorizontalAlignment="Left" Margin="6,5,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_clear" Grid.ColumnSpan="2" Content="Clear" HorizontalAlignment="Left" Margin="66,5,0,0" VerticalAlignment="Top" Width="55" Height="55" AutomationProperties.Name="Clear" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_ln" Grid.ColumnSpan="2" Content="ln" HorizontalAlignment="Left" Margin="126,5,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_log" Content="log" HorizontalAlignment="Left" Margin="186,5,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="btn_power" Content="^" HorizontalAlignment="Left" Margin="246,5,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="btn_seven" Grid.ColumnSpan="2" Content="7" HorizontalAlignment="Left" Margin="6,65,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_eight" Grid.ColumnSpan="2" Content="8" HorizontalAlignment="Left" Margin="66,65,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_nine" Grid.ColumnSpan="2" Content="9" HorizontalAlignment="Left" Margin="126,65,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_divide" Content="/" HorizontalAlignment="Left" Margin="186,65,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="btn_exponent" Content="e^" HorizontalAlignment="Left" Margin="246,65,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="btn_four" Grid.ColumnSpan="2" Content="4" HorizontalAlignment="Left" Margin="6,125,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_five" Grid.ColumnSpan="2" Content="5" HorizontalAlignment="Left" Margin="66,125,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_six" Grid.ColumnSpan="2" Content="6" HorizontalAlignment="Left" Margin="126,125,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_multiply" Content="*" HorizontalAlignment="Left" Margin="186,125,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="btn_sqrt" Content="sqrt" HorizontalAlignment="Left" Margin="246,125,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="btn_one" Grid.ColumnSpan="2" Content="1" HorizontalAlignment="Left" Margin="6,185,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_two" Grid.ColumnSpan="2" Content="2" HorizontalAlignment="Left" Margin="66,185,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_three" Grid.ColumnSpan="2" Content="3" HorizontalAlignment="Left" Margin="125,185,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_minus" Content="-" HorizontalAlignment="Left" Margin="185,185,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="btn_reciprocal" Content="1/x" HorizontalAlignment="Left" Margin="246,185,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="btn_decimal" Grid.ColumnSpan="2" Content="." HorizontalAlignment="Left" Margin="6,245,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_zero" Grid.ColumnSpan="2" Content="0" HorizontalAlignment="Left" Margin="66,245,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_pi" Grid.ColumnSpan="2" Content="pi" HorizontalAlignment="Left" Margin="126,245,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="btn_plus" Content="+" HorizontalAlignment="Left" Margin="186,245,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="btn_equalsto" Content="=" HorizontalAlignment="Left" Margin="246,245,0,0" VerticalAlignment="Top" Width="55" Height="55" FontSize="18" Grid.Column="1" Grid.Row="1"/>
+
+    </Grid>
+</Window>

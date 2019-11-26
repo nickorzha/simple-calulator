@@ -1,0 +1,19 @@
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\bin\Debug\Cm Calculator.exe.config
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\bin\Debug\Cm Calculator.exe
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\bin\Debug\Cm Calculator.pdb
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\bin\Debug\Cm Calculator.xml
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm Calculator.vbprojAssemblyReference.cache
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\MainWindow.g.vb
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Application.g.vb
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm Calculator_MarkupCompile.cache
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm Calculator_MarkupCompile.lref
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\MainWindow.baml
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm Calculator.g.resources
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm_Calculator.Resources.resources
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm Calculator.vbproj.GenerateResource.cache
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm Calculator.exe
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm Calculator.xml
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm Calculator.pdb
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\bin\Debug\MathParser.org-mXparser.Net45.dll
+C:\Users\chand\source\repos\Cm Calculator\Cm Calculator\obj\Debug\Cm Calculator.vbproj.CopyComplete
