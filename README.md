@@ -1,1 +1,1 @@
-![Cm Calculator  Preview](Preview/Preview.gif)
+![Cm Calculator Preview](Preview/Preview.gif)
