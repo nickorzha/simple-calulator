@@ -7,4 +7,5 @@
   </a>
  </p>
 -->
+![Cm Calculator Preview](Preview/preview.gif)
 ![Cm Calculator Preview](Preview/mockup_preview.gif)
