@@ -1,11 +1,5 @@
 <h2 align="center"> Cm Calculator </h2>
-<!--
 <p align="center">
-	<a href="https://visualstudio.microsoft.com/">
-    <img src=""
-      alt="Platform" />
-  </a>
- </p>
--->
-![Cm Calculator Preview](Preview/Preview.gif)
-![Cm Calculator Preview](Preview/mockup_preview.gif)
+![Platform Windows](https://img.shields.io/badge/Platform-Windows-blue.svg)
+</p>
+![Cm Calculator Preview](https://github.com/Cm-Champ/Cm-Calculator-2.0/blob/master/Preview/mockup_preview.gif)
