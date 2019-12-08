@@ -1,4 +1,4 @@
-<h2 align="center"> :iphone: Cm Calculator </h2>
+<h1 align="center"> :iphone: Cm Calculator </h2>
 <p align="center">
 <img src="https://img.shields.io/badge/Platform-Windows-00a2ed.svg" />
 <img src="https://img.shields.io/badge/Version-v2.0alpha-brightgreen.svg" />
