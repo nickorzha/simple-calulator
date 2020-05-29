@@ -1,4 +1,4 @@
-<h1 align="center"> :iphone: Cm Calculator </h2>
+<h1 align="center"> :iphone: Cm Calculator </h1>
 <p align="center">
   Cm Calculator is a modern console app written in VB that can run on Windows. <br/>
   The app provides standard calculator functionality. <br/> <br/>
